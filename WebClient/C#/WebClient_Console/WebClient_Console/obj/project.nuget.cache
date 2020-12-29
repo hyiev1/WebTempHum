@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "yx41u3NFQP6FgYNU+XDt2C1QGMJnr2qQ7PKfE5m4W9YFVituGKcFrYpw9NLeCmeUMGCVAufkp8KuNvHUo6uW5w==",
+  "success": true,
+  "projectFilePath": "D:\\Dev\\gecko\\WebClient\\C#\\WebClient_Console\\WebClient_Console\\WebClient_Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adrian\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

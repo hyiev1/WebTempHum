@@ -1,0 +1,74 @@
+package me.hyie;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.util.Scanner;
+
+import com.google.gson.*;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		float temperature;
+		float humidity;
+		String s_url = "";
+		
+		System.out.print("Enter Address (Example: http://192.168.43.74/info): ");
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+		try {
+			String address = bufferedReader.readLine();
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		
+		
+		try {
+			URL url = new URL("http://192.168.43.74/info");
+			
+			while(true) {
+				String s_content = getUrlContent(url);
+				
+				JsonObject jsonObject = new JsonParser().parse(s_content).getAsJsonObject();
+				if(jsonObject.isJsonObject()) {
+					temperature = jsonObject.get("temperature").getAsFloat();
+					humidity = jsonObject.get("humidity").getAsFloat();
+					
+					System.out.println("----- ----- ----- -----");
+					System.out.println("Temperature: " + temperature);
+					System.out.println("Humidity:    " + humidity);
+				}
+				
+				Thread.sleep(10000);
+			}
+			
+			
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	public static String getUrlContent(URL url) throws IOException
+	{
+	    try (Scanner scanner = new Scanner(url.openStream(),
+	            StandardCharsets.UTF_8.toString()))
+	    {
+	        String result = "";
+	        while(scanner.hasNext()) {
+	        	result += scanner.next();
+	        }
+	        return result;
+	    }
+	}
+	
+}

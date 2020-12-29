@@ -1,0 +1,43 @@
+package me.hyie;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.util.Scanner;
+
+import com.google.gson.*;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		try {
+			URL url = new URL("http://192.168.43.74/info");
+			System.out.println("::" + getUrlContent(url));
+			
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	public static String getUrlContent(URL url) throws IOException
+	{
+	    try (Scanner scanner = new Scanner(url.openStream(),
+	            StandardCharsets.UTF_8.toString()))
+	    {
+	        //scanner.useDelimiter("\\A");
+	        
+	        String result = "";
+	        while(scanner.hasNext()) {
+	        	result += scanner.next();
+	        }
+	        return result;
+	    }
+	}
+	
+}

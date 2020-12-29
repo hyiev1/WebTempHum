@@ -1,0 +1,15 @@
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.csprojAssemblyReference.cache
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.AssemblyInfoInputs.cache
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.AssemblyInfo.cs
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.csproj.CoreCompileInputs.cache
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\bin\Debug\netcoreapp3.1\WebClient_Console.exe
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\bin\Debug\netcoreapp3.1\WebClient_Console.deps.json
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\bin\Debug\netcoreapp3.1\WebClient_Console.runtimeconfig.json
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\bin\Debug\netcoreapp3.1\WebClient_Console.runtimeconfig.dev.json
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\bin\Debug\netcoreapp3.1\WebClient_Console.dll
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\bin\Debug\netcoreapp3.1\WebClient_Console.pdb
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.csproj.CopyComplete
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.dll
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.pdb
+D:\Dev\gecko\WebClient\C#\WebClient_Console\WebClient_Console\obj\Debug\netcoreapp3.1\WebClient_Console.genruntimeconfig.cache

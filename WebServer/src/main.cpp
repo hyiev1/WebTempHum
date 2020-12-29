@@ -10,7 +10,6 @@
 
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
-#include <ESP8266mDNS.h>
 
 #include <DHT.h>
 #include <ArduinoJson.h>
@@ -21,9 +20,8 @@
 ESP8266WebServer server(80);
 DHT dht(DHTPIN, DHTTYPE);
 
-String ssid = "<YOUR_SSID>";        // WiFi ssid
-String pass = "<YOUR_PASSWORD>";    // WiFi password
-String dns_name = "myesp";
+String ssid = "<ssid>";
+String pass = "<password>";
 
 IPAddress myIP;
 
@@ -65,7 +63,7 @@ void setup()
 
   // Connecting to WiFi
   WiFi.begin(ssid, pass);
-  Serial.println("Starting connection to " + ssid + "!");
+  Serial.println("Connecting to " + ssid + "!");
   bool blink = true;
   while(WiFi.status() != WL_CONNECTED) {
     delay(500);
@@ -75,12 +73,6 @@ void setup()
   }
   Serial.println("\nSuccessfully connected!");
   Serial.println("Local IP: " + WiFi.localIP().toString());
-
-  // Starting DNS (domain name server)
-  if(MDNS.begin(dns_name)) {
-    Serial.println("Started DNS.");
-    Serial.println("Reachable as: http://" + String(dns_name) + ".local/");
-  }
 
   // Starting Server
   server.onNotFound(handleNotFound);

@@ -1,0 +1,13 @@
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\bin\Release\WebClient_Forms.exe.config
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\bin\Release\WebClient_Forms.exe
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\bin\Release\WebClient_Forms.pdb
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\bin\Release\Newtonsoft.Json.dll
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\bin\Release\Newtonsoft.Json.xml
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.csprojAssemblyReference.cache
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.Form1.resources
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.Properties.Resources.resources
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.csproj.GenerateResource.cache
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.csproj.CoreCompileInputs.cache
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.csproj.CopyComplete
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.exe
+D:\Dev\gecko\WebClient\C#\WebClient_Forms\WebClient_Forms\obj\Release\WebClient_Forms.pdb
