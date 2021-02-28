@@ -6,20 +6,20 @@
 	+------------------------+
 	| ESP8266 & DHT-Sensor	 |
 	|  - updates information |
-	|	on request	           |
+	|	on request	 |
 	+------------------------+
-		      ^
-   [hosts & updates]
-		      v
+		 ^
+   	  [hosts & updates]
+		 v
 	+----------------+
-	| Webserver 	   |
+	| Webserver 	 |
 	|  - Json format |
 	+----------------+
-		      ^
-      [requests]
-		      |
+		 ^
+      	     [requests]
+		 |
 	+---------------------------------+
-	| WebClient (C#/Java)		          |
+	| WebClient (C#/Java)		  |
 	|  - requests & Shows Information |
 	+---------------------------------+
 ```
