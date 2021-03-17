@@ -19,7 +19,7 @@ public class Main {
 		String s_url = "";
 		
 		do {
-			System.out.print("Enter Address (Example: http://192.168.43.74/info): ");
+			System.out.print("Enter Address (Example: http://XX.XX.XX.XX/info): ");
 			BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 			try {
 				s_url = bufferedReader.readLine().trim();
