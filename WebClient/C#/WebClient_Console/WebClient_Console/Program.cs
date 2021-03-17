@@ -22,7 +22,7 @@ namespace WebClient_Console
             string url;
             do
             {
-                Console.Write("Enter Address (Example: http://192.168.43.74/info): ");
+                Console.Write("Enter Address (Example: http://XX.XX.XX.XX/info): ");
                 url = Console.ReadLine();
             } while (String.IsNullOrEmpty(url.Trim()));
 
